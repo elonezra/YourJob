@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:gravity="center"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ezra.elon.yourjob.ActivityForGame">
+<FrameLayout
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:layout_margin="15dp"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/logo"
+    android:elevation="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/headline"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:id="@+id/question_text_view"/>
+</FrameLayout>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:id="@+id/startbtn"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:elevation="5dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:text="התחל"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:elevation="5dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:id="@+id/explain_button"
+        android:layout_margin="10dp"
+        android:text="הסבר"/>
+
+</LinearLayout>

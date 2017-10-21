@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_main_layout_top_padding"
+    android:gravity="center_horizontal"
+    tools:context="com.ezra.elon.yourjob.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_marginTop="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temp_question"
+        android:id="@+id/question_text_view"
+        android:textSize="20dp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:layout_width="@dimen/yesno_btn_width"
+        android:layout_height="@dimen/yesno_btn_height"
+        android:background="@drawable/buton_t"
+        android:elevation="5dp"
+        android:id="@+id/true_btn"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorPrimary"
+        android:text="כן"/>
+
+    <Button
+        android:background="@drawable/buton"
+        android:layout_width="@dimen/yesno_btn_width"
+        android:layout_height="@dimen/yesno_btn_height"
+        android:id="@+id/false_btn"
+        android:elevation="5dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorAccent"
+        android:text="לא"/>
+
+
+
+
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        app:srcCompat="@drawable/logo_kidma"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="28dp"
+        android:paddingBottom="20dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+
+       />
+
+
+</RelativeLayout>

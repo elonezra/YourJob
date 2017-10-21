@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">מה התפקיד שלך?</string>
+    <string name="title_activity_finished_state">מה התפקיד שלך?</string>
+    <string name="temp_question">איזה תפקיד הכי מתאים לך?</string>
+    <string name="headline">איזה תפקיד הכי מתאים לך?</string>
+    <string-array name="arrying">
+        <item>האם ישלך חוש טכני?</item>
+        <item>ידוע כאחד עם רעיונות מבריקים?</item>
+        <item>זה שתמיד עוזר לחברים בלימודים?</item>
+        <item>מעדיף לעבוד במעבדה?</item>
+        <item>מעדיף עבודה פיזית?</item>
+        <item>עובד יותר טוב בצוות?</item>
+        <item>החברים מגדירים אותך כאוזן קשבת?</item>
+        <item>חולם על קריירה בהייטק?</item>
+        <item>אוהב לעבוד בסביבת עבודה דינאמית?</item>
+        <item>אוהב שטח?</item>
+        <item>אוהב סיכונים?</item>
+        <item>חושב צעד אחד לפני כולם?</item>
+        <item>אוהב להתמקד בפרטים הקטנים?</item>
+        <item>חולם לקבל תעודת לוחם</item>
+        <item>יש לך כושר מנהיגות?</item>
+        <item>  </item>
+        <item>  </item>
+        <item>   </item>
+        <item>  </item>
+        <item> </item>
+    </string-array>
+</resources>
